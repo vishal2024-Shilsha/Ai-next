@@ -15,7 +15,7 @@ export default async function Home() {
   return (
     <main className="p-10">
       <h1 className="text-3xl font-bold mb-5">
-        Next.js Server Side Rendering
+        Hey This is the all user details which are shown below
       </h1>
 
       <div className="grid gap-4">
