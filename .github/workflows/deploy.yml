@@ -24,7 +24,7 @@ jobs:
           ssh -o StrictHostKeyChecking=no \
           ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
 
-            cd /home/ubuntu/next-ssr-app
+            cd /home/ubuntu/Ai-next
 
             git pull origin main
 
